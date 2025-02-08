@@ -70,13 +70,17 @@ const Employment = () => {
           <span>(780) 429-2300</span> | <span>lexilot.com</span>
         </div>
       </header>
+      <div className="robot-container">
+        <div className="robot"></div>
+      </div>
 
-      <section className="hero">
+      <section className="hero5">
         <h2>Hire a Employment Lawyer.</h2>
-        <h3>Advocating For Clients Since 1991</h3>
         <p>
-          Lexolution is an Edmonton-based, multi-practice law firm, serving
-          clients throughout India.
+        An employment lawyer is the workplace watchdog—protecting employees’ 
+        rights and keeping businesses compliant. From wrongful termination to 
+        contract negotiations, they tackle workplace disputes with sharp legal expertise. 
+        Think of them as the referee ensuring fairness in the professional arena! 
         </p>
       </section>
 
@@ -92,6 +96,20 @@ const Employment = () => {
           </div>
         ))}
       </section>
+      <footer className="footer">
+        <div className="social-icons">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-facebook"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-linkedin"></i>
+          </a>
+        </div>
+        <p>&copy; 2025 Lexolution. All Rights Reserved.</p>
+      </footer>
     </div>
   );
 };

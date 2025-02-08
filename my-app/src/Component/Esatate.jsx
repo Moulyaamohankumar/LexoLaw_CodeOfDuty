@@ -70,13 +70,17 @@ const Estate = () => {
           <span>(780) 429-2300</span> | <span>lexilot.com</span>
         </div>
       </header>
+      <div className="robot-container">
+        <div className="robot"></div>
+      </div>
 
-      <section className="hero">
+      <section className="hero6">
         <h2>Hire a Estate Planning Lawyers.</h2>
-        <h3>Advocating For Clients Since 1991</h3>
+        
         <p>
-          Lexolution is an Edmonton-based, multi-practice law firm, serving
-          clients throughout India.
+        An estate planning lawyer is the architect of your legacy—helping you safeguard assets, 
+        draft wills, and ensure your loved ones are taken care of. They turn complex legalities into peace of mind,
+         making sure your wishes live on. Think of them as the master planner for your future!
         </p>
       </section>
 
@@ -92,6 +96,20 @@ const Estate = () => {
           </div>
         ))}
       </section>
+      <footer className="footer">
+        <div className="social-icons">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-facebook"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-linkedin"></i>
+          </a>
+        </div>
+        <p>&copy; 2025 Lexolution. All Rights Reserved.</p>
+      </footer>
     </div>
   );
 };

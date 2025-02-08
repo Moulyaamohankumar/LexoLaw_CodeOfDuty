@@ -70,13 +70,18 @@ const Divorce = () => {
           <span>(780) 429-2300</span> | <span>lexilot.com</span>
         </div>
       </header>
+      <div className="robot-container">
+        <div className="robot"></div>
+      </div>
 
-      <section className="hero">
+      <section className="hero4">
         <h2>Hire a Divorce Lawyer.</h2>
-        <h3>Advocating For Clients Since 1991</h3>
         <p>
-          Lexolution is an Edmonton-based, multi-practice law firm, serving
-          clients throughout India.
+        A divorce lawyer is like a navigator through stormy seas—helping
+         clients untangle legal ties, divide assets, and find the best path forward. 
+         Whether negotiating settlements or fighting in court, they bring strategy and
+          compassion to one of life’s toughest transitions. 
+        Think of them as the legal bridge from "I do" to "I’m free!"
         </p>
       </section>
 
@@ -92,6 +97,20 @@ const Divorce = () => {
           </div>
         ))}
       </section>
+      <footer className="footer">
+        <div className="social-icons">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-facebook"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-linkedin"></i>
+          </a>
+        </div>
+        <p>&copy; 2025 Lexolution. All Rights Reserved.</p>
+      </footer>
     </div>
   );
 };

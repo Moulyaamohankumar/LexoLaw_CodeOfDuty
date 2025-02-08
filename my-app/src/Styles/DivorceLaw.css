@@ -31,10 +31,10 @@
     font-family:'Merriweather', serif; ;
   }
   
-  .hero {
-    background: url("https://i.pinimg.com/474x/90/cb/7a/90cb7acb2ef4a170c9f5b00bdcbfed9e.jpg") no-repeat center/cover;
+  .hero4 {
+    background: url("https://i.pinimg.com/474x/4d/3a/cd/4d3acdc8f315ff39c02d5df01a140b64.jpg") no-repeat center/cover;
     color: white;
-    padding: 100px 20px;
+    padding: 120px 20px;
     text-align: center;
     font-family:'Merriweather', serif; 
   }

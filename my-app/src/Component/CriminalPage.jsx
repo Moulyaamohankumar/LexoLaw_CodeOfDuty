@@ -71,13 +71,22 @@ const Criminal = () => {
         </div>
       </header>
 
-      <section className="hero">
+      <div className="robot-container">
+        <div className="robot"></div>
+      </div>
+
+
+      <section className="hero3">
+        
         <h2>Hire a Criminal Lawyer.</h2>
-        <h3>Advocating For Clients Since 1991</h3>
         <p>
-          Lexolution is an Edmonton-based, multi-practice law firm, serving
-          clients throughout India.
+          A criminal lawyer is the courtroom warrior—defending the accused, 
+          challenging evidence, and ensuring justice is served. 
+          Whether fighting for the innocent or negotiating fair outcomes, 
+          they navigate the high-stakes world of criminal law with strategy and skill.
+           Think of them as the legal shield standing between justice and chaos!
         </p>
+      
       </section>
 
       <section className="lawyers">
@@ -93,6 +102,20 @@ const Criminal = () => {
           </div>
         ))}
       </section>
+      <footer className="footer">
+        <div className="social-icons">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-facebook"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-linkedin"></i>
+          </a>
+        </div>
+        <p>&copy; 2025 Lexolution. All Rights Reserved.</p>
+      </footer>
     </div>
   );
 };
