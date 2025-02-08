@@ -15,9 +15,10 @@ const Documents = () => {
       <header className="header">
         <div className="logo">Lexolution</div>
         <nav className="nav">
-          <a href="/">Home</a>
+        <a href="/">Home</a>
           <a href="/Service">Our Services</a>
-          <a href="/Sig">Contact</a>
+          <a href="/Sig">SignUp</a>
+          <a href="/LawPage">About Us</a>
         </nav>
       </header>
 
@@ -29,7 +30,13 @@ const Documents = () => {
           needs.
         </p>
       </section>
-
+      <div className="robot-container">
+        
+        <div className="robot">
+        <a className="1" href="/ai" style={{justifyItems:"center"}}>C</a>
+        </div>
+        
+      </div>
     
       <section className="services-section">
         <div className="service-card2 cardA">
@@ -44,7 +51,7 @@ const Documents = () => {
         </div>
         <div className="service-card2 cardOMG">
           <h3>
-            <a href="op.html">Business Operations</a>
+            <a href="/Bui">Business Operations</a>
           </h3>
         </div>
         <div className="service-card2 cardD">
@@ -54,7 +61,7 @@ const Documents = () => {
         </div>
         <div className="service-card2 cardE">
           <h3>
-            <a href="tax.html">Tax Advisory</a>
+            <a href="/T">Tax Advisory</a>
           </h3>
         </div>
       </section>

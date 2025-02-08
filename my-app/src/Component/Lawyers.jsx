@@ -17,10 +17,10 @@ const LawyerServices = () => {
       <header className="header">
         <div className="logo">Lexolution</div>
         <nav className="nav">
-          <a href="/">Home</a>
+        <a href="/">Home</a>
+          <a href="/Service">Our Services</a>
+          <a href="/Sig">SignUp</a>
           <a href="/LawPage">About Us</a>
-          <a href="/Sig">Contact</a>
-          <a href="/Service">Our services</a>
         </nav>
         <div className="menu-icon" onClick={toggleSidebar}>
           ☰
@@ -42,6 +42,13 @@ const LawyerServices = () => {
         <h1>Expert Legal Services</h1>
         <p>Reliable and Trustworthy Lawyers at Your Service</p>
       </section>
+      <div className="robot-container">
+        
+        <div className="robot">
+        <a className="1" href="/ai" style={{justifyItems:"center"}}>C</a>
+        </div>
+        
+      </div>
 
       <section className="lawyer-content">
         <div className="lawyer-card card1">
@@ -50,6 +57,20 @@ const LawyerServices = () => {
         <div className="lawyer-card card2">
           <h3>Hire</h3>
         </div>
+        <footer className="footer">
+        <div className="social-icons">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-facebook"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-linkedin"></i>
+          </a>
+        </div>
+        <p>&copy; 2025 Lexolution. All Rights Reserved.</p>
+      </footer>
       </section>
     </>
   );

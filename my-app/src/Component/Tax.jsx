@@ -66,10 +66,10 @@ const Tax = () => {
         <h1>Lexolution</h1>
         <nav>
             <h3>
-          <a href="#">Home</a>
-          <a href="#">Our Service</a>
-          <a href="#">About us</a>
-          <a href="#">Contact us</a>
+            <a href="/">Home</a>
+          <a href="/Service">Our Services</a>
+          <a href="/Sig">SignUp</a>
+          <a href="/LawPage">About Us</a>
           </h3>
         </nav>
         <div className="contact">

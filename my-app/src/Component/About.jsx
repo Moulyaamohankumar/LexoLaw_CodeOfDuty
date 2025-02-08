@@ -29,6 +29,7 @@ const About = () => {
         <h1>Hire</h1>
         <p>We provide expert lawyers who have expert legal solutions tailored to your needs.</p>
       </section>
+      
 
       <section className="services-section">
         <div className="service-card card1">

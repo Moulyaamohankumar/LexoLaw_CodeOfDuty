@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../Styles/Signup.css'; // Import custom CSS
+import '../Styles/Signup.css'; 
 
 export const Signup = () => {
     const [name, setName] = useState('');
@@ -27,11 +27,19 @@ export const Signup = () => {
                     <h1 className="signup-brand-logo">Lexolution</h1>
                 </div>
                 <nav className="signup-navigation">
-                    <a href="/lexo">Home</a>
-                    <a href="/LawPage">About</a>
-                    <a href="/Service">Our Service</a>
+                <a href="/">Home</a>
+          <a href="/Service">Our Services</a>
+          <a href="/Sig">SignUp</a>
+          <a href="/LawPage">About Us</a>
                 </nav>
             </header>
+            <div className="robot-container">
+        
+        <div className="robot">
+        <a className="1" href="/ai" style={{justifyItems:"center"}}>C</a>
+        </div>
+        
+      </div>
 
             {/* Main Banner Below the Navbar */}
             <section className="signup-main-banner">

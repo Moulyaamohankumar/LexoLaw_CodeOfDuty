@@ -186,15 +186,21 @@ const Lexo = () => {
           <span>lexlot.com</span>
         </div>
       </header>
-      <main className="main-banner">
-        <h2>PERSONAL INJURY. CRIMINAL DEFENCE. FAMILY LAW.</h2>
-        <h1>Advocating For Clients Since 1991</h1>
+      <main className="main-banner1">
+        
+        <h1>Advocating For Clients Since 2025</h1>
         <p>
-          Chadi & Company is an Edmonton-based, multi-practice law firm, serving
-          clients throughout Alberta and Western Canada.
+        Lexolution is an Edmonton-based, multi-practice law firm  
+            . We provide quick and reliable assistance with documentation, 
+            such as patents and bonds, saving you time from lengthy court procedures. 
+            Additionally, we help you find the right lawyer for your needs, all within seconds.serving clients throughout India
         </p>
         <div className="buttons">
-          <button className="consultation-btn">GET A CONSULTATION</button>
+       
+          <button className="consultation-btn"><a href="/About" style={{color:"white"}}>GET A CONSULTATION</a> 
+        
+          </button>
+          
         </div>
         <div className="buttons">
           <button className="reviews-btn" onClick={handleSOSClick}>SOS</button>
@@ -206,7 +212,7 @@ const Lexo = () => {
         <h2>Search Results:</h2>
         <div id="results">
           {results.length === 0 ? (
-            <p>No results found.</p>
+            <p> </p>
           ) : (
             results.map((result, index) => (
               <div key={index} className="result">
@@ -221,7 +227,7 @@ const Lexo = () => {
       <div className="robot-container">
         
         <div className="robot">
-        <a className="1" href="/ai" style={{justifyItems:"center"}}></a>
+        <a className="1" href="/ai" style={{justifyItems:"center"}}>C</a>
         </div>
         
       </div>

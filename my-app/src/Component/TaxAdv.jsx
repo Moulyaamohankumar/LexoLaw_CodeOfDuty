@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../Styles/Bond.css'; // Importing CSS file for styling
 
-const BondAgreementForm = () => {
+const tAX = () => {
     const [issuer, setIssuer] = useState('');
     const [bondholder, setBondholder] = useState('');
     const [principalAmount, setPrincipalAmount] = useState('');
@@ -34,7 +34,7 @@ const BondAgreementForm = () => {
         <div>
             <div className="navbar">
                 <div className="logo">Lexolution</div>
-                <ul className="nav-links" style={{justifyContent:"space-evenly"}}>
+                <ul className="nav-links">
                 <a href="/" style={{margin:"10px"}}>  Home   </a>
           <a href="/Service" style={{margin:"10px"}}>  Our Services   </a>
           <a href="/Sig" style={{margin:"10px"}}>SignUp</a>
@@ -42,17 +42,13 @@ const BondAgreementForm = () => {
                 </ul>
             </div>
             
-            <div className="robot-container">
-        
-        <div className="robot">
-        <a className="1" href="/ai" style={{justifyItems:"center"}}>C</a>
-        </div>
-        
+      <div className="robot-container">
+        <div className="robot"></div>
       </div>
 
             
             <div className="form-container">
-                <h2 className="form-title">Bond Agreement Form</h2>
+                <h2 className="form-title">Tax Advisory Contract</h2>
                 <form onSubmit={handleSubmit} className="bond-form">
                     <div className="form-group">
                         <label htmlFor="issuer">Issuer</label>
@@ -185,10 +181,17 @@ const BondAgreementForm = () => {
         </div>
         <p>&copy; 2025 Lexolution. All Rights Reserved.</p>
       </footer>
+      <div className="robot-container">
+        
+        <div className="robot">
+        <a className="1" href="/ai" style={{justifyItems:"center"}}>C</a>
+        </div>
+        
+      </div>
         </div>
         
         
     );
 };
 
-export default BondAgreementForm;
+export default tAX;

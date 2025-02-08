@@ -19,14 +19,19 @@ const LawyerPage = () => {
       <header className="header">
         <div className="logo">Lexolution</div>
         <nav className="nav">
-          <Link to="/">Home</Link>
-          <Link to="/about">About Us</Link>
-          <Link to="/Sig">Registration</Link>
+        <a href="/">Home</a>
+          <a href="/Service">Our Services</a>
+          <a href="/Sig">SignUp</a>
+          <a href="/LawPage">About Us</a>
         </nav>
       </header>
 
       <div className="robot-container">
-        <div className="robot"></div>
+        
+        <div className="robot">
+        <a className="1" href="/ai" style={{justifyItems:"center"}}>C</a>
+        </div>
+        
       </div>
 
       <section className="main-banner4">
@@ -53,6 +58,20 @@ const LawyerPage = () => {
           width="500px"
         />
       </section>
+      <footer className="footer">
+        <div className="social-icons">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-facebook"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-linkedin"></i>
+          </a>
+        </div>
+        <p>&copy; 2025 Lexolution. All Rights Reserved.</p>
+      </footer>
     </>
   );
 };

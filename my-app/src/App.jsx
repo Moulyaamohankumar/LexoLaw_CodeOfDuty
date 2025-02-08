@@ -19,6 +19,8 @@ import Tax from "./Component/Tax"
 import { Signup } from "./Component/SignUP";
 import BondAgreementForm from "./Component/Bond";
 import { LogInt } from "./Component/Login";
+import BusinessOp from "./Component/BusinessOp";
+import tAX from "./Component/TaxAdv";
 
 const App = () => {
   return (
@@ -43,6 +45,9 @@ const App = () => {
         <Route path="/Sig" element={<Signup/>}/>
         <Route path="/Bond" element={<BondAgreementForm/>}/>
         <Route path="/login" element={<LogInt/>}/>
+        <Route path="/Bui" element={<BusinessOp/>}/>
+        <Route path="/Ti" element={<tAX/>}/>
+
         
         
 

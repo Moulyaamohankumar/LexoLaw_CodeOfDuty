@@ -66,10 +66,10 @@ const Estate = () => {
         <h1>Lexolution</h1>
         <nav>
             <h3>
-          <a href="/l">Home</a>
-          <a href="/Service">Our Service</a>
-          <a href="/LawPage">About us</a>
-          <a href="/Sig">Sign Up</a>
+            <a href="/">Home</a>
+          <a href="/Service">Our Services</a>
+          <a href="/Sig">SignUp</a>
+          <a href="/LawPage">About Us</a>
           </h3>
         </nav>
         <div className="contact">
@@ -77,7 +77,11 @@ const Estate = () => {
         </div>
       </header>
       <div className="robot-container">
-        <div className="robot"></div>
+        
+        <div className="robot">
+        <a className="1" href="/ai" style={{justifyItems:"center"}}>C</a>
+        </div>
+        
       </div>
 
       <section className="hero6">

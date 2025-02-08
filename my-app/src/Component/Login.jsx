@@ -22,9 +22,10 @@ export const LogInt = () => {
                     <h1 className="signup-brand-logo">Lexolution</h1>
                 </div>
                 <nav className="signup-navigation">
-                    <a href="/">Home</a>
-                    <a href="/LawPage">About</a>
-                    <a href="/Service">Our Service</a>
+                <a href="/">Home</a>
+          <a href="/Service">Our Services</a>
+          <a href="/Sig">SignUp</a>
+          <a href="/LawPage">About Us</a>
                 </nav>
             </header>
 
@@ -33,7 +34,13 @@ export const LogInt = () => {
                 <h1 className="signup-banner-title">Log In </h1>
                 <p className="signup-banner-subtext">Welcome back .</p>
             </section>
-
+            <div className="robot-container">
+        
+        <div className="robot">
+        <a className="1" href="/ai" style={{justifyItems:"center"}}>C</a>
+        </div>
+        
+      </div>
             
             <div className="signup-form-wrapper">
                 <div className="signup-form-box">
