@@ -4,9 +4,9 @@ const { default: run } = require('../gemini/geminlaw');
 
 
 const lawyerrouter = Router();
-lawyerrouter.get('/',(req, res)=>{
-    console.log("Hello Lawyer")
-})
+// lawyerrouter.get('/',(req, res)=>{
+//     console.log("Hello Lawyer")
+// })
 
 lawyerrouter.post('/', async (req, res) => {
     

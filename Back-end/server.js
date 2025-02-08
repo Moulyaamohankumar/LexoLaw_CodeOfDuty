@@ -19,8 +19,8 @@ app.use(express.static("public"));
 
 
 
-app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/index.html"); 
+app.get("/test", (req, res) => {
+  res.send("running test..."); 
 });
 app.use("/ask", askrouter)
 app.use("/lawyer",lawyerrouter)
