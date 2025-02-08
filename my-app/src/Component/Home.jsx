@@ -23,11 +23,12 @@ const lexo = () => {
         </div>
       </header>
       <main className="main-banner">
-        <h2>PERSONAL INJURY. CRIMINAL DEFENCE. FAMILY LAW.</h2>
-        <h1>Advocating For Clients Since 1991</h1>
+        <h2>Advocating And Documenting For Clients Since 2025.</h2>
+       
         <p>
-          Chadi & Company is an Edmonton-based, multi-practice law firm, serving
-          clients throughout Alberta and Western Canada.
+        . We provide quick and reliable assistance with documentation, 
+            such as patents and bonds, saving you time from lengthy court procedures. 
+            Additionally, we help you find the right lawyer for your needs, all within seconds.serving clients throughout India
         </p>
         <div className="buttons">
           <button className="consultation-btn">GET A CONSULTATION</button>
