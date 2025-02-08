@@ -188,11 +188,21 @@ const Lexo = () => {
       </header>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
       <main className="main-banner1">
         <h2>Advocating And Documenting For Clients Since 2025</h2>
         <p>
           We provide quick and reliable assistance with documentation, such as patents and bonds, saving you time from lengthy court procedures. Additionally, we help you find the right lawyer for your needs, all within seconds. Serving clients throughout India.
+=======
+      <main className="main-banner">
+        <h2>Advocating And Documenting For Clients Since 2025.</h2>
+       
+        <p>
+        . We provide quick and reliable assistance with documentation, 
+            such as patents and bonds, saving you time from lengthy court procedures. 
+            Additionally, we help you find the right lawyer for your needs, all within seconds.serving clients throughout India
+>>>>>>> 96ff4ee75f150af476bbedf994621b1d7dd966de
 =======
       <main className="main-banner">
         <h2>Advocating And Documenting For Clients Since 2025.</h2>
