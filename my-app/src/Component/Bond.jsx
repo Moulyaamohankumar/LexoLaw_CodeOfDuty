@@ -35,9 +35,9 @@ const BondAgreementForm = () => {
             <div className="navbar">
                 <div className="logo">Lexolution</div>
                 <ul className="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/LawPage">About</a></li>
+                    <li><a href="/Sig">Contact</a></li>
                 </ul>
             </div>
             
@@ -139,7 +139,7 @@ const BondAgreementForm = () => {
                             value={paymentMethod}
                             onChange={(e) => setPaymentMethod(e.target.value)}
                             required
-                        />
+                            style={{width:"100%"}} />
                     </div>
 
                     <div className="form-group">
@@ -149,7 +149,7 @@ const BondAgreementForm = () => {
                             id="collateral"
                             value={collateral}
                             onChange={(e) => setCollateral(e.target.value)}
-                        />
+                            style={{width:"100%"}} />
                     </div>
 
                     <div className="form-group">
@@ -160,7 +160,7 @@ const BondAgreementForm = () => {
                             value={law}
                             onChange={(e) => setLaw(e.target.value)}
                             required
-                        />
+                            style={{width:"100%"}}  />
                     </div>
 
                     <button type="submit" className="form-btn">Submit Agreement</button>

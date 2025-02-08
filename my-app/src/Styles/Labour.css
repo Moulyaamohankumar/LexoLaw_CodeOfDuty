@@ -25,8 +25,8 @@
     margin: 0 15px;
   }
   
-  .hero {
-    background: url("https://i.pinimg.com/474x/90/cb/7a/90cb7acb2ef4a170c9f5b00bdcbfed9e.jpg") no-repeat center/cover;
+  .hero8 {
+    background: url("https://i.pinimg.com/474x/b8/1c/4f/b81c4f46e9ba1c515f3691c4d74073e2.jpg") no-repeat center/cover;
     color: white;
     padding: 100px 20px;
     text-align: center;
@@ -34,26 +34,26 @@
   
   .lawyers {
     display: flex;
-    flex-wrap: wrap; /* Ensures responsiveness */
-    justify-content: center; /* Center cards */
-    gap: 20px; /* Space between cards */
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
     padding: 50px;
-    background: #f9f5f0; /* Light background */
+    background: #f9f5f0; 
   }
   
   .lawyer-card7 {
-    background: white; /* White card background */
+    background: white; 
     color: black;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    width: 280px; /* Fixed width */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    width: 280px; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between; /* Ensures spacing */
-    min-height: 400px; /* Minimum height for uniform cards */
+    justify-content: space-between; 
+    min-height: 400px; 
   }
   
   .lawyer-card7 img {
@@ -61,7 +61,7 @@
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 15px; /* Space below image */
+    margin-bottom: 15px;
   }
   
   .lawyer-card7 h3 {
@@ -84,7 +84,7 @@
     cursor: pointer;
     border-radius: 5px;
     font-size: 1em;
-    margin-top: auto; /* Pushes button to bottom */
+    margin-top: auto; 
   }
   
   .lawyer-card7 button:hover {

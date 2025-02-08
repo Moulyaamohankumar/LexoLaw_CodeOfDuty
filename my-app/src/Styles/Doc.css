@@ -1,4 +1,4 @@
-/* Import Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap');
 
 /* * {
@@ -14,7 +14,6 @@ body {
     line-height: 1.8;
 }
 
-/* Header */
 .header {
     display: flex;
     justify-content: space-between;
@@ -140,7 +139,7 @@ body {
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Individual Background Images for Each Card */
+
 .cardA {
     background-image: url('https://i.pinimg.com/474x/ae/6c/ba/ae6cbae396916841efea8a63ed0fabc6.jpg');
 }
@@ -149,19 +148,19 @@ body {
     background-image: url('https://i.pinimg.com/474x/0b/9b/4d/0b9b4d27cc6cd8f0da1d3d824ff703e9.jpg');
 }
 
-.cardC {
-    background-image: url('https://i.pinimg.com/474x/d6/b8/8c/d6b88cc06c6c9d34874627f1b1e34ed9.jpg');
+.cardOMG {
+    background-image: url('https://i.pinimg.com/474x/25/09/c1/2509c103727f678747c8d09efaf51336.jpg');
 }
 
 .cardD {
-    background-image: url('https://i.pinimg.com/474x/f3/7b/b2/f37bb2fc5dfcdff8579df82925b2ef83.jpg');
+    background-image: url('https://i.pinimg.com/474x/7f/38/c5/7f38c53c64c164a3341d24a9418869c3.jpg');
 }
 
 .cardE {
-    background-image: url('https://i.pinimg.com/474x/3b/d8/83/3bd883e32a340efdfd8de5d7f8b2a702.jpg');
+    background-image: url('https://i.pinimg.com/474x/d6/7e/50/d67e50e67c96ab4ebc0eeae4cc8d3df8.jpg');
 }
 
-/* Responsive Design */
+
 @media screen and (max-width: 768px) {
     .nav {
         gap: 20px;

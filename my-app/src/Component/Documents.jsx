@@ -15,13 +15,13 @@ const Documents = () => {
       <header className="header">
         <div className="logo">Lexolution</div>
         <nav className="nav">
-          <a href="c.html">Home</a>
-          <a href="our-services.html">Our Services</a>
-          <a href="contact.html">Contact</a>
+          <a href="/">Home</a>
+          <a href="/Service">Our Services</a>
+          <a href="/Sig">Contact</a>
         </nav>
       </header>
 
-      {/* Main Banner */}
+   
       <section className="main-banner">
         <h1>Our Legal Services</h1>
         <p>
@@ -30,11 +30,11 @@ const Documents = () => {
         </p>
       </section>
 
-      {/* Services Cards */}
+    
       <section className="services-section">
         <div className="service-card2 cardA">
           <h3>
-            <a href="l.html">Bond Agreements</a>
+            <a href="/Bond">Bond Agreements</a>
           </h3>
         </div>
         <div className="service-card2 cardB">
@@ -42,7 +42,7 @@ const Documents = () => {
             <a href="d.html">Contract Drafting</a>
           </h3>
         </div>
-        <div className="service-card2 cardC">
+        <div className="service-card2 cardOMG">
           <h3>
             <a href="op.html">Business Operations</a>
           </h3>

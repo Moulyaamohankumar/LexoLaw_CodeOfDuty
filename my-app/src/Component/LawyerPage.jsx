@@ -21,7 +21,7 @@ const LawyerPage = () => {
         <nav className="nav">
           <Link to="/">Home</Link>
           <Link to="/about">About Us</Link>
-          <Link to="/signup">Registration</Link>
+          <Link to="/Sig">Registration</Link>
         </nav>
       </header>
 
@@ -29,7 +29,7 @@ const LawyerPage = () => {
         <div className="robot"></div>
       </div>
 
-      <section className="main-banner">
+      <section className="main-banner4">
         <h1>About Us</h1>
       </section>
 

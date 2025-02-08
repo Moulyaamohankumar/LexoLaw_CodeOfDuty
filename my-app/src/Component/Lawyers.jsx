@@ -17,10 +17,10 @@ const LawyerServices = () => {
       <header className="header">
         <div className="logo">Lexolution</div>
         <nav className="nav">
-          <a href="c.html">Home</a>
-          <a href="lawyer.html">About Us</a>
-          <a href="contact.html">Contact</a>
-          <a href="r.html">Our services</a>
+          <a href="/">Home</a>
+          <a href="/LawPage">About Us</a>
+          <a href="/Sig">Contact</a>
+          <a href="/Service">Our services</a>
         </nav>
         <div className="menu-icon" onClick={toggleSidebar}>
           ☰

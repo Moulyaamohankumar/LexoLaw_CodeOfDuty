@@ -14,7 +14,7 @@ body {
     line-height: 1.8;
 }
 
-/* Header */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -54,11 +54,10 @@ body {
     border-radius: 5px;
 }
 
-/* Main Banner */
-.main-banner {
+.main-banner2{
     text-align: center;
     padding: 140px 20px;
-    background-image: url('https://i.pinimg.com/474x/0a/08/c5/0a08c5c3fb7ec15475c94815c23b7865.jpg');
+    background-image: url('https://i.pinimg.com/474x/df/39/73/df397335e63f7cac430cc9e2bbd2d836.jpg');
     background-position:center;
     background-size:contain;
     position: relative;
@@ -81,7 +80,7 @@ body {
     z-index: 1;
 }
 
-/* Services Section */
+
 .services-section1{
     display: flex;
     justify-content: center;
@@ -89,7 +88,6 @@ body {
     padding: 80px 10px;
 }
 
-/* Service Cards */
 .service-card1 {
     width: 400px;
     height: 600px;
@@ -118,7 +116,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Translucent overlay */
+    background: rgba(0, 0, 0, 0.5); 
     border-radius: 15px;
 }
 
@@ -128,7 +126,7 @@ body {
 }
 
 
-/* Individual Background Images for Each Card */
+
 .carda {
     background-image: url('https://i.pinimg.com/474x/a8/b5/d0/a8b5d0692b8265e3589aaf2d20d3d304.jpg');
 }

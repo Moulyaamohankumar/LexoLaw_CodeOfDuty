@@ -10,11 +10,11 @@ const OurServices = () => {
         <div className="logo">Lexolution</div>
         <nav className="nav">
           <a href="/">Home</a>
-          <a href="/our-services">About Us</a>
-          <a href="/contact">Contact</a>
+          <a href="/Services">About Us</a>
+          <a href="/Sig">Contact</a>
         </nav>
       </header>
-      <section className="main-banner">
+      <section className="main-banner2">
         <h1>Our Services</h1>
         <p>We offer the best services to cater to your needs</p>
       </section>

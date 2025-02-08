@@ -9,7 +9,7 @@ const GeminiAIChat = () => {
   const askComrade = async () => {
     if (!userInput.trim()) return;
     
-   let ans= await axios.post("http://localhost:3000/ask",{
+   let ans= await axios.post("https://lexolaw-codeofduty-2-rkc6.onrender.com/ask",{
       prompt:userInput
     })
    console.log("ans",ans);

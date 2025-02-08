@@ -1,22 +1,25 @@
 import React from "react";
-import "../Styles/CriminalPage.css"
+import "../Styles/Labour.css"
 
 const Llawyers = [
   {
-    name: "John Doe",
+    Id: "lawyer001",
+    name: "Bijoy Biswas",
     experience: "10+ years",
     cases: 150,
-    location: "New York, USA",
-    image: "https://i.pinimg.com/474x/af/a4/d7/afa4d724404111dd604b950a65326d8a.jpg",
+    location: "Bengal , India",
+    image: "https://i.pinimg.com/474x/07/b8/f8/07b8f8645c0a29934001c00be80380c6.jpg",
   },
   {
+    Id: "lawyer002",
     name: "Jane Smith",
     experience: "8+ years",
     cases: 120,
     location: "Los Angeles, USA",
-    image: "https://i.pinimg.com/474x/af/a4/d7/afa4d724404111dd604b950a65326d8a.jpg",
+    image: "https://i.pinimg.com/474x/e7/cf/72/e7cf7247554cf19fbdfc777bc869afb5.jpg",
   },
   {
+    Id: "lawyer003",
     name: "Robert Brown",
     experience: "15+ years",
     cases: 200,
@@ -24,32 +27,36 @@ const Llawyers = [
     image: "https://i.pinimg.com/474x/af/a4/d7/afa4d724404111dd604b950a65326d8a.jpg",
   },
   {
-    name: "Robert Brown",
+    Id: "lawyer004",
+    name: "Qala Shen",
     experience: "15+ years",
     cases: 200,
     location: "Chicago, USA",
-    image: "https://i.pinimg.com/474x/af/a4/d7/afa4d724404111dd604b950a65326d8a.jpg",
+    image: "https://i.pinimg.com/474x/7b/d8/58/7bd8589c51456f555e2cbb5bcb2d5fc3.jpg",
   },
   {
-    name: "Robert Brown",
+    Id: "lawyer005",
+    name: "Shiela Rob",
     experience: "15+ years",
     cases: 200,
     location: "Chicago, USA",
-    image: "https://i.pinimg.com/474x/af/a4/d7/afa4d724404111dd604b950a65326d8a.jpg",
+    image: "https://i.pinimg.com/474x/00/62/87/006287d3aa9c240f2ca4fdfe90d67a39.jpg",
   },
   {
-    name: "Robert Brown",
+    Id: "lawyer006",
+    name: "Angelina Jacob",
     experience: "15+ years",
     cases: 200,
     location: "Chicago, USA",
-    image: "https://i.pinimg.com/474x/af/a4/d7/afa4d724404111dd604b950a65326d8a.jpg",
+    image: "https://i.pinimg.com/474x/be/6b/f9/be6bf903aeebd566fc3de8aad32943a0.jpg",
   },
   {
-    name: "Robert Brown",
+    Id: "lawyer007",
+    name: "lakshmi Narayana",
     experience: "15+ years",
     cases: 200,
-    location: "Chicago, USA",
-    image: "https://i.pinimg.com/474x/af/a4/d7/afa4d724404111dd604b950a65326d8a.jpg",
+    location: "Karnataka , India ",
+    image: "https://i.pinimg.com/474x/9a/b5/3e/9ab53ead723dddf9d4f0089f54f098c1.jpg",
   },
 ];
 
@@ -60,10 +67,10 @@ const Labour = () => {
         <h1>Lexolution</h1>
         <nav>
             <h3>
-          <a href="/lexo">Home</a>
+          <a href="/">Home</a>
           <a href="/Service">Our Service</a>
           <a href="/LawPage">About us</a>
-          <a href="/SignUp">Sign Up</a>
+          <a href="/Sig">Sign Up</a>
           </h3>
         </nav>
         <div className="contact">
@@ -71,7 +78,7 @@ const Labour = () => {
         </div>
       </header>
 
-      <section className="hero">
+      <section className="hero8">
         <h2>Hire a Labour Lawyer.</h2>
         <h3>Advocating For Clients Since 1991</h3>
         <p>

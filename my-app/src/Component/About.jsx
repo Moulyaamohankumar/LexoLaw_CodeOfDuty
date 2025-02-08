@@ -18,9 +18,9 @@ const About = () => {
       <header className="header">
         <div className="logo">Lexolution</div>
         <nav className="nav">
-          <a href="/lexo">Home</a>
+          <a href="/">Home</a>
           <a href="/Service">Our Services</a>
-          <a href="/SignUp">SignUp</a>
+          <a href="/Sig">SignUp</a>
           <a href="/LawPage">About Us</a>
         </nav>
       </header>

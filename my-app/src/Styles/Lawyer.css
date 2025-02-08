@@ -125,7 +125,7 @@ body {
     z-index: 1;
 }
 
-/* Lawyer Services Section */
+
 .lawyer-content {
     display: flex;
     justify-content: center;
@@ -133,7 +133,7 @@ body {
     padding: 80px 10px;
 }
 
-/* Service Cards */
+
 .lawyer-card {
     width: 400px;
     height: 400px;
@@ -167,7 +167,7 @@ body {
     z-index: 1;
 }
 
-/* Individual Background Images for Each Card */
+
 .card1 {
     background-image: url('https://i.pinimg.com/474x/ae/6c/ba/ae6cbae396916841efea8a63ed0fabc6.jpg');
 }

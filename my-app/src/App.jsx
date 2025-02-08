@@ -18,6 +18,7 @@ import Immigration from "./Component/Immigration"
 import Tax from "./Component/Tax"
 import { Signup } from "./Component/SignUP";
 import BondAgreementForm from "./Component/Bond";
+import { LogInt } from "./Component/Login";
 
 const App = () => {
   return (
@@ -41,11 +42,12 @@ const App = () => {
         <Route path="/Tax" element={<Tax/>}/>
         <Route path="/Sig" element={<Signup/>}/>
         <Route path="/Bond" element={<BondAgreementForm/>}/>
+        <Route path="/login" element={<LogInt/>}/>
         
         
 
         
-        {/* Add more routes here if needed */}
+       
       </Routes>
     
   );

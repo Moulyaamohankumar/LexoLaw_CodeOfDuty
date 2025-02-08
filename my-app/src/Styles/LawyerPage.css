@@ -54,8 +54,8 @@ body {
     border-radius: 5px;
 }
 
-/* Main Banner */
-.main-banner {
+
+.main-banner4 {
     text-align: center;
     padding: 140px 20px;
     background-image: url('https://i.pinimg.com/474x/40/3a/e2/403ae2e31c15cbe6925f82e0d34b6ea4.jpg');
@@ -109,7 +109,7 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Services Section */
+
 
 .footer2 {
     background-color: #222;
